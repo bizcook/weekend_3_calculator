@@ -1,0 +1,99 @@
+body{
+  background-image: url("Albert_Einstein.jpg");
+}
+
+h1{
+  font-family: futura, helvetica;
+  margin: 0;
+  letter-spacing: 6px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 200px;
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+   text-shadow: 6px 6px 10px #000000;
+}
+
+#calculator{
+  margin: 0 auto;
+}
+#inputForm{
+  width: 500px;
+  padding: 50px;
+  margin: 0 auto;
+  background-color: rgba(173, 216, 230, .95);
+
+}
+
+label{
+  font-family: futura, helvetica;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #333333;
+  padding-bottom: 10px;
+
+}
+
+#inputOne, #inputTwo{
+  float: right;
+  border: none;
+  height: 20px;
+  width: 80px;
+
+}
+
+#buttonOperators{
+  display:inline;
+
+}
+p{
+  display: inline;
+  font-size: 16px;
+  font-family: futura;
+  color: #333333;
+  letter-spacing: 2px;
+  padding: 10px 0 10px 0;
+  text-transform: uppercase;
+
+}
+button{
+  background-color: white;
+
+  color: #add8e6;
+  border-radius: 0;
+  display: inline;
+  font-size: 16px;
+  font-family: futura;
+  border: none;
+  width: 40px;
+  height: 40px;
+  margin: 20px 10px 20px 0px;
+}
+button:hover{
+  background-color: #333333;
+  color: white;
+
+}
+
+#equal{
+  float: right;
+
+}
+
+#clear{
+  width: 100px;
+  float: right;
+}
+#answer{
+  font-size: 16px;
+  font-family: futura;
+  color: #333333;
+  letter-spacing: 2px;
+  padding: 10px 0 10px 0;
+
+}
+.answer{
+  font-size: 24px;
+}

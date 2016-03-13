@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF8">
+    <title> calculator </title>
+    <link rel="stylesheet" href="/assets/styles/style.css">
+
+    <script type="text/javascript" src="/vendors/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+  </head>
+
+  <body>
+    <h1> Calculator </h1>
+    <div id = "calculator">
+
+      <form id = "inputForm">
+        <label for="inputOne">Enter your first number:</label>
+        <input type="text" id = "inputOne" name = "inputOne" />
+        <br />
+        <br />
+        <label for="inputTwo">Enter your second number:</label>
+        <input type="text" id = "inputTwo" name = "inputTwo" />
+        <br />
+        <br />
+
+      <div id = "buttonOperators">
+        <p>
+          choose your operator:
+        </p>
+        <button id = "add" class = "add">+</button>
+        <button id = "subtract" class = "subtract">—</button>
+        <button id = "multiply" class = "multiply">x</button>
+        <button id = "divide" class = "divide">/</button>
+      </div>
+
+      <div id = "equal">
+        <button id = "equalButton">=</button>
+      </div>
+
+      <div id="answer">
+        ANSWER:
+      </div>
+
+    <div id = "clear">
+      <button id = "clear">CLEAR</button>
+    </div>
+    </form>
+  </div>
+  </body>
+
+</html>

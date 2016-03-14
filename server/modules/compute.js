@@ -1,4 +1,6 @@
 var compute = function (object) {
+
+//set variable for the switchcase to use once it does the calculation
   var result;
 
   //create a switch case to go through which math operator was used.

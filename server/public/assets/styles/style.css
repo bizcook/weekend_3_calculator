@@ -18,13 +18,14 @@ h1{
 
 #calculator{
   margin: 0 auto;
+
 }
 #inputForm{
   width: 500px;
+  height: 200px;
   padding: 50px;
   margin: 0 auto;
   background-color: rgba(173, 216, 230, .95);
-
 }
 
 label{
@@ -40,12 +41,14 @@ label{
   float: right;
   border: none;
   height: 20px;
-  width: 80px;
+  width: 88px;
+  margin-right: 10px;
 
 }
 
 #buttonOperators{
   display:inline;
+
 
 }
 p{
@@ -54,22 +57,23 @@ p{
   font-family: futura;
   color: #333333;
   letter-spacing: 2px;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 0 0;
   text-transform: uppercase;
+  float: left;
 
 }
 button{
   background-color: white;
-
+  float:right;
   color: #add8e6;
   border-radius: 0;
-  display: inline;
+  display: inline-block;
   font-size: 16px;
   font-family: futura;
   border: none;
   width: 40px;
   height: 40px;
-  margin: 20px 10px 20px 0px;
+  margin: 20px 10px 10px 0px;
 }
 button:hover{
   background-color: #333333;
@@ -77,23 +81,32 @@ button:hover{
 
 }
 
-#equal{
-  float: right;
-
+#equalButton {
+margin-top:51px;
+position: relative;
+bottom: 45px;
+left: 200px;
 }
 
-#clear{
-  width: 100px;
+button#clear{
+  width: 90px;
+  display: inline;
   float: right;
+  letter-spacing: 2px;
+  position: relative;
+  bottom: 15px;
+  left: 200px;
 }
-#answer{
+#answer {
   font-size: 16px;
   font-family: futura;
   color: #333333;
   letter-spacing: 2px;
   padding: 10px 0 10px 0;
 
+
+
 }
 .answer{
-  font-size: 24px;
+  font-size: 42px;
 }
